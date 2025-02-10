@@ -106,7 +106,7 @@ function agregarProducto(productos, contenedor, esOferta = false) {
 
         // Género del producto
         let genero = document.createElement('p');
-        genero.textContent = `Género: ${producto.genero}`;
+        genero.textContent = `${producto.genero}`;
         genero.classList.add('genero');
 
         // Familia olfativa
