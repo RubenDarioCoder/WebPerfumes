@@ -38,7 +38,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@ header {
   color: #333;
   font-family: 'Cinzel', serif;
   font-weight: 700;
-  padding: 5px 10px;
+  padding: o.5rem 0.25rem;
   transition: all 0.3s ease;
   position: relative;
 }
@@ -98,7 +98,7 @@ header {
 .logo:hover {
   transform: scale(1.05);
 }
-
+/*
 .nombreLogo {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
@@ -110,11 +110,10 @@ header {
 .nombreLogo:hover {
   color: #b76e79;
 }
-
+*/
 .imgLogo {
   width: 80px; /* Ajusta el tamaño de la imagen */
   height: auto;
-  border-radius: 50%; /* Hace la imagen redonda */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -124,8 +123,9 @@ header {
 }
 
 .bienvenida {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin: 1rem 0.5rem;
+  text-align: center;
 }
 
 main {
@@ -134,7 +134,7 @@ main {
   justify-content: space-around; /* Asegura que los elementos estén distribuidos con espacio entre ellos */
   gap: 2rem; /* Espacio entre los elementos */
   max-width: 1440px;
-  margin: 2rem auto;
+  margin: 1 rem auto;
    /* Permite que los elementos se ajusten si no caben en una sola línea */
 }
 
@@ -156,9 +156,12 @@ main {
 }
 
 .imgProducto {
-  width: 100%;
-  height: 200px;
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
   object-fit: contain;
+  background-color: black;
+  border-radius: 20px;
   transition: transform 0.5s ease, z-index 1s ease;
   z-index: 1;
 }
@@ -225,42 +228,63 @@ h2::after {
   margin-top: 0.5rem;
 }
 
-.buttonPedirW{
-  flex: 1;
-  padding: 0.6rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: var(--transicion);
-  font-size: 1rem;
-  text-align: center;
-  text-decoration: none;
-  background-color: #562f45;
-  color: #ffffff; /* Texto blanco */
+.buttonPedirW {
+    flex: 1;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #562f45;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
 
-.button--rosa {
-  background: var(--color-secundario);
-  color: white;
+.buttonPedirW:hover {
+    background-color: #6d3a5a;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
-.button--lavanda {
-  background: #a18cd1;
-  color: white;
-}
 
-.button:hover {
-  opacity: 0.9;
-  transform: scale(1.05);
-}
 
 
 footer {
-  background: var(--color-primario);
-  padding: 2rem;
-  margin-top: 4rem;
+
+  padding: 1rem;
+  margin-top: 3rem;
+  background-color: var(--color-primario);
   border-top: 2px solid #a18cd1;
+}
+
+.divContacto {
+    padding-top: 0.5rem;
+}
+
+.h2Contacto {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.h2Contacto::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: var(--color-secundario);
+    margin: 1rem auto;
 }
 
 .contacto {
@@ -304,15 +328,16 @@ footer {
 
 .pregunta {
   background: white;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border-radius: 8px;
   overflow: hidden;
-  padding-left: 2rem;
+  padding-right: 0.5rem;
+  
 }
 
 .pregunta-btn {
   width: 100%;
-  padding: 1.2rem;
+  padding: 1rem;
   text-align: left;
   border: none;
   background: transparent;
@@ -327,18 +352,30 @@ footer {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  padding: 0 1.2rem;
+  padding: 0.5rem;
   
 }
 
 .respuesta p {
-  padding: 1rem 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .pregunta.active .respuesta {
   max-height: 500px;
 }
 
+.piePagina p{
+
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  border-top: 2px solid #a18cd1;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  
+}
 
 .titulo-div {
   font-family: 'Cinzel', serif;
