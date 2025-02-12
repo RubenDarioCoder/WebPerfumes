@@ -1,4 +1,3 @@
-/* Variables */
 :root {
   --color-primario: #f1396d;
   --color-secundario: #fbc5d8;
@@ -8,7 +7,6 @@
   --transicion: all 0.3s ease;
 }
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +21,6 @@ body {
   
 }
 
-/* Header */
 header {
   font-family: 'Cinzel', serif;
   background: var(--color-secundario);
@@ -46,7 +43,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3rem;
+  height: 2rem;
   z-index: 1000;
   font-weight: lighter;
   
@@ -58,39 +55,79 @@ header {
   transition: var(--transicion);
 }
 
-.nav a {
-  color: var(--color-texto);
+.nav li a {
   text-decoration: none;
-  font-size: 1.1rem;
+  color: #333;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-.nav li:hover {
-  transform: translateY(-3px);
-  color: var(--color-secundario);
+.nav li a:hover {
+  color: #b76e79;
 }
+
+.nav li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #b76e79; 
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav li a:hover::after {
+  width: 100%; 
+}
+
 
 .logo {
-    display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ margin-top: 0.5rem;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .nombreLogo {
-    font-size: 2rem;
-    color: white;
-    font-family: 'Cinzel', serif;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nombreLogo:hover {
+  color: #b76e79;
 }
 
 .imgLogo {
-    width: 8rem;
-    display: flex;
-    
+  width: 80px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  border-radius: 50%; /* Hace la imagen redonda */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Main Content */
+.imgLogo:hover {
+  transform: rotate(10deg) scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bienvenida {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -181,7 +218,7 @@ h2::after {
     padding: 0.2rem;
 }
 
-/* Botones */
+
 .divButton {
   display: flex;
   gap: 1rem;
@@ -218,11 +255,11 @@ h2::after {
   transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
   background: var(--color-primario);
-  padding: 0.5rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  margin-top: 4rem;
   border-top: 2px solid #a18cd1;
 }
 
@@ -243,13 +280,12 @@ footer {
   transform: scale(1.2);
 }
 
-/* Sección Preguntas */
+
 .preguntasFrecuentes {
   background: #ceacb4;
-  padding: 1.5rem;
-  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 1rem;
+  margin: 2rem 1rem 1rem 1rem;
 }
-
 .h2PreguntasFrecuentes {
   font-family: 'Cinzel', serif;
   font-size: 1.5rem;
@@ -271,7 +307,7 @@ footer {
   margin-bottom: 1rem;
   border-radius: 8px;
   overflow: hidden;
-  padding: 0.5rem;
+  padding-left: 2rem;
 }
 
 .pregunta-btn {
@@ -296,19 +332,19 @@ footer {
 }
 
 .respuesta p {
-  padding: 1.2rem 0;
+  padding: 1rem 0;
 }
 
 .pregunta.active .respuesta {
   max-height: 500px;
 }
 
-/* Títulos especiales */
+
 .titulo-div {
   font-family: 'Cinzel', serif;
   font-size: 2rem;
   text-align: center;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   position: relative;
   
 }
@@ -335,28 +371,24 @@ footer {
 .disponibles { color: #27ae60; }
 .ofertas { color: #e67e22; }
 .paraEncargar { color: #3498db; }
-
+.imgProducto {
+    height: 300px;
+  }
 @media (min-width: 1440px) {
   main {
     grid-template-rows: repeat(4, 1fr);
   }
   
-  .imgProducto {
-    height: 300px;
-  }
-}
-
 
 @media (max-width: 1024px) {
-  .disponibles, .ofertas, .paraEncargar {
-    grid-template-columns: repeat(2, 1fr); /* En pantallas más pequeñas, muestra 2 columnas */
+    .disponibles, .ofertas, .paraEncargar {
+      grid-template-columns: repeat(2, 1fr); /* En pantallas más pequeñas, muestra 2 columnas */
+    }
   }
+    
 }
-
 @media (max-width: 768px) {
   .disponibles, .ofertas, .paraEncargar {
     grid-template-columns: 1fr; /* En pantallas muy pequeñas (móviles), muestra 1 columna */
   }
 }
-
-
