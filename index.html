@@ -4,22 +4,27 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&family=Lora:wght@400;700&family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
        <meta charset="UTF-8">
-       <link rel="stylesheet" href="styless2.css">
-       <title>Título de la página</title>
+       <link rel="stylesheet" href="styles.css">
+       <link rel="icon" href="img/logoTitulo.ico" type="image/x-icon">
+       <title>Perfumes</title>
    </head>
    <body>
        <header id="header">
            <nav class="nav">
                 <li><a href="#header">Inicio</a></li>
                 <li><a href="#main">Productos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#divContacto">Contacto</a></li>
                 <li><a href="#preguntasFrecuentes">Preguntas...?</a></li>
            </nav>
            <div class="logo">
-                <div class="nombreLogo">Nombre empresa</div>
+                <div class="nombreLogo"></div>
                 <img class="imgLogo" src="img/logoPrincipal.jpg" alt=""></img>
            </div>
-           <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat excepturi laudantium blanditiis animi harum non quidem voluptas eligendi ipsam nam recusandae neque dolorem, ullam consequatur! Ex alias quod saepe.</p></div>
+           <div><p class="bienvenida">Bienvenidos a Sabrina Perfumes
+
+            Descubre el mundo de las fragancias con nosotros. Nos apasiona ofrecerte una selección exclusiva de perfumes que capturan esencias únicas y memorables. 
+            
+            Explora nuestra colección de productos y encuentra aquellos perfumes que puedes encargar para vivir una experiencia olfativa inolvidable. ¡Bienvenido a un viaje de sensaciones y elegancia!</p></div>
        </header>
 
        <main id="main">
@@ -35,6 +40,23 @@
        </main>
 
        <footer>
+           <div class="divContacto" id="divContacto">
+               <h2 class="h2Contacto">Visitanos</h2>
+           </div>
+           <section>
+               <div class="contacto" id="contacto">
+                  <a href="">
+                      <img src="img/logotiktok.png" alt=""></img>
+                  </a>
+                  <a href="https://www.instagram.com/sabri.perfumes_?igsh=MXFwNndnaGRxMmJnZw==">
+                      <img src="img/logoinstagram.png" alt=""></img>
+                  </a>
+                  <a href="#" onclick="abrirWhatsAppBienvenida()">
+                      <img src="img/logowhatsapp.png" alt=""></img>
+                  </a>
+               </div>
+           </section>
+           
            <section class="preguntasFrecuentes" id="preguntasFrecuentes">
     <h2 class="h2PreguntasFrecuentes">Preguntas Frecuentes</h2>
     <div class="pregunta">
@@ -74,20 +96,15 @@
         </div>
     </div>
 </section>
-           <section>
-               <div class="contacto" id="contacto">
-                  <a href="">
-                      <img src="img/logotiktok.png" alt=""></img>
-                  </a>
-                  <a href="">
-                      <img src="img/logoinstagram.png" alt=""></img>
-                  </a>
-                  <a href="">
-                      <img src="img/logowhatsapp.png" alt=""></img>
-                  </a>
-               </div>
-           </section>
-           <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat excepturi laudantium blanditiis animi harum non quidem voluptas eligendi ipsam nam recusandae neque dolorem, ullam consequatur! Ex alias quod saepe.</p></div>
+ <section class="piePagina">
+    <p class="textoCierre">
+        Gracias por visitar <strong>Sabrina Perfumes</strong>. Esperamos que hayas disfrutado explorando nuestra colección de fragancias únicas y memorables. Estamos aquí para ayudarte a encontrar el perfume perfecto que se adapte a tu estilo y personalidad. 
+        <br><br>
+        ¡No dudes en contactarnos si tienes alguna pregunta o necesitas asesoramiento! Tu satisfacción es nuestra prioridad.
+    </p>
+ </section>
+           
+           
        </footer>
 
        <!-- Vincular el archivo JavaScript al final del body -->
