@@ -86,15 +86,10 @@ function abrirWhatsAppBienvenida() {
     window.open(url, '_blank'); // Abre en una nueva pestaña
 }
 // Función para agregar productos al DOM
-function agregarProducto(productos, contenedor, esOferta = false) {
+function agregarProducto(productos, contenedor) {
     productos.forEach(producto => {
         let article = document.createElement('article');
         article.classList.add('article');
-
-        // Agregar clase adicional si es una oferta
-        if (esOferta) {
-            article.classList.add('oferta');
-        }
 
         // Crear la imagen del producto
         let imgProducto = document.createElement('img');
