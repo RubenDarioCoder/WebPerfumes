@@ -365,6 +365,17 @@ footer {
   max-height: 500px;
 }
 
+.piePagina p{
+
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  border-top: 2px solid #a18cd1;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  
+}
 
 .titulo-div {
   font-family: 'Cinzel', serif;
