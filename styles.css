@@ -24,11 +24,10 @@ body {
 header {
   font-family: 'Cinzel', serif;
   background: var(--color-secundario);
-  
   padding: 1.5rem;
   text-align: center;
   position: relative;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .nav {
