@@ -148,7 +148,7 @@ paraEncargar.push(mughalFort, p9AmDive, haya, odysseyMarineSky);
 
 // Función para abrir WhatsApp
 function abrirWhatsApp(nombreDelProducto, tipo) {
-    var numero = "541144701604"; // Reemplaza con tu número
+    var numero = "541158473075"; // Reemplaza con tu número
     var mensaje;
 
     if (tipo === "disponible") {
@@ -163,7 +163,7 @@ function abrirWhatsApp(nombreDelProducto, tipo) {
 
 //Mensaje de bienvenida
 function abrirWhatsAppBienvenida() {
-    var numero = "541144701604"; // Reemplaza con tu número en formato internacional sin el signo "+"
+    var numero = "541158473075"; // Reemplaza con tu número en formato internacional sin el signo "+"
     var mensaje = "¡Hola! quiero saber de "; // Mensaje de bienvenida
     var url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
