@@ -1,6 +1,5 @@
 // Arrays para almacenar los productos
 let disponibles = [];
-let ofertas = [];
 let paraEncargar = [];
 
 // Definición de los productos
@@ -13,9 +12,6 @@ let afeef = {
     ocasion: "Noche, especial",
     descripcion: "Un aroma envolvente y sensual, inspirado en la belleza de los desiertos árabes."
 };
-disponibles.push(afeef);
-ofertas.push(afeef);
-paraEncargar.push(afeef);
 
 let mughalFort = {
     nombre: "Mughal Fort",
@@ -26,9 +22,6 @@ let mughalFort = {
     ocasion: "Noche, especial",
     descripcion: "Un aroma cautivador que seduce desde el instante inicial. Combina notas especiadas y dulces para crear una experiencia olfativa única."
 };
-disponibles.push(mughalFort);
-ofertas.push(mughalFort);
-paraEncargar.push(mughalFort);
 
 let p9AmDive = {
     nombre: "9 Am Dive",
@@ -39,9 +32,6 @@ let p9AmDive = {
     ocasion: "Diario, verano",
     descripcion: "Un aroma fresco y energizante, ideal para comenzar el día. Evoca la sensación de sumergirse en aguas cristalinas al amanecer."
 };
-disponibles.push(p9AmDive);
-paraEncargar.push(p9AmDive);
-ofertas.push(p9AmDive);
 
 let haya = {
     nombre: "Haya",
@@ -52,9 +42,6 @@ let haya = {
     ocasion: "Noche, especial",
     descripcion: "Un aroma delicado y sensual, inspirado en la flor de haya. Perfecto para ocasiones especiales."
 };
-disponibles.push(haya);
-ofertas.push(haya);
-paraEncargar.push(haya);
 
 let odysseyMarineSky = {
     nombre: "Odyssey Marine Sky",
@@ -65,36 +52,127 @@ let odysseyMarineSky = {
     ocasion: "Diario, deportivo",
     descripcion: "Un aroma fresco y vigorizante, que evoca la sensación de libertad y aventura."
 };
-disponibles.push(odysseyMarineSky);
-ofertas.push(odysseyMarineSky);
-paraEncargar.push(odysseyMarineSky);
 
+let badeeAlOud = {
+    nombre: "Badee al Oud",
+    presentacion: "Eau de Parfum, 100ml",
+    genero: "Unisex",
+    familia_olfativa: "Oriental Amaderado",
+    notas_olfativas: ["oud", "azafrán", "vainilla"],
+    ocasion: "Noche, especial",
+    descripcion: "Un aroma intenso y sofisticado, centrado en el oud, ideal para ocasiones especiales."
+};
+
+let alJawharaNicheEmarato = {
+    nombre: "Al Jawhara Niche Emarato",
+    presentacion: "Eau de Parfum, 75ml",
+    genero: "Femenino",
+    familia_olfativa: "Floral Oriental",
+    notas_olfativas: ["jazmín", "vainilla", "ámbar"],
+    ocasion: "Noche, formal",
+    descripcion: "Un perfume elegante y femenino, con un toque oriental que evoca lujo y sofisticación."
+};
+
+let haramainTanasuk = {
+    nombre: "Haramain Tanasuk",
+    presentacion: "Eau de Parfum, 60ml",
+    genero: "Unisex",
+    familia_olfativa: "Oriental Especiado",
+    notas_olfativas: ["canela", "azafrán", "madera de sándalo"],
+    ocasion: "Noche, invierno",
+    descripcion: "Un aroma cálido y especiado, perfecto para las noches frías."
+};
+
+let rehlaAydan = {
+    nombre: "Rehla Aydan",
+    presentacion: "Eau de Parfum, 50ml",
+    genero: "Unisex",
+    familia_olfativa: "Amaderado Aromático",
+    notas_olfativas: ["pachulí", "vétiver", "notas amaderadas"],
+    ocasion: "Día, noche",
+    descripcion: "Un perfume versátil y moderno, con un carácter amaderado y aromático."
+};
+
+let armafTag = {
+    nombre: "Armaf Tag",
+    presentacion: "Eau de Parfum, 100ml",
+    genero: "Masculino",
+    familia_olfativa: "Amaderado Especiado",
+    notas_olfativas: ["pimienta", "madera de cedro", "ámbar"],
+    ocasion: "Día, noche",
+    descripcion: "Un aroma masculino y especiado, con un toque amaderado que lo hace ideal para cualquier ocasión."
+};
+
+let mayar = {
+    nombre: "Mayar",
+    presentacion: "Eau de Parfum, 50ml",
+    genero: "Unisex",
+    familia_olfativa: "Floral Amaderado",
+    notas_olfativas: ["rosa", "madera de oud", "almizcle"],
+    ocasion: "Noche, especial",
+    descripcion: "Un perfume elegante y equilibrado, con notas florales y amaderadas que lo hacen perfecto para ocasiones especiales."
+};
+
+let muskEsentialAydan = {
+    nombre: "Musk Esencial Aydan",
+    presentacion: "Eau de Parfum, 60ml",
+    genero: "Unisex",
+    familia_olfativa: "Musk Floral",
+    notas_olfativas: ["almizcle", "jazmín", "vainilla"],
+    ocasion: "Día, noche",
+    descripcion: "Un aroma suave y sensual, con un toque floral que lo hace versátil para cualquier momento."
+};
+
+let SouvenirBoomingBless = {
+    nombre: "Souvenir Booming Bless",
+    presentacion: "Eau de Parfum, 100ml",
+    genero: "Femenino",
+    familia_olfativa: "Floral Frutal",
+    notas_olfativas: ["frutas rojas", "jazmín", "vainilla"],
+    ocasion: "Día, noche",
+    descripcion: "Un perfume vibrante y femenino, con un toque frutal y floral que lo hace ideal para cualquier ocasión."
+};
+
+let p9AmDiveRebeld = {
+    nombre: "9Am Dive Rebeld",
+    presentacion: "Eau de Parfum, 100ml",
+    genero: "Masculino",
+    familia_olfativa: "Cítrico Aromático",
+    notas_olfativas: ["limón", "manzana", "lavanda", "vainilla", "ámbar"],
+    ocasion: "Día, primavera/verano",
+    descripcion: "Un perfume fresco y vibrante, con un toque cítrico y aromático que evoca energía y juventud. Perfecto para el uso diario en climas cálidos."
+};
+
+disponibles.push(afeef, badeeAlOud, haramainTanasuk, rehlaAydan, armafTag, mayar);
+paraEncargar.push(mughalFort, p9AmDive, haya, odysseyMarineSky);
 
 // Función para abrir WhatsApp
-function abrirWhatsApp(nombreDelProducto) {
-    var numero = "541158473075"; // Reemplaza con tu número
-    var mensaje = `Hola! quiero este producto: ${nombreDelProducto}.`; // Usar template literals para incluir el nombre del producto
+function abrirWhatsApp(nombreDelProducto, tipo) {
+    var numero = "541144701604"; // Reemplaza con tu número
+    var mensaje;
+
+    if (tipo === "disponible") {
+        mensaje = `Quiero comprar ${nombreDelProducto}. Soy `;
+    } else if (tipo === "encargar") {
+        mensaje = `Quiero encargar ${nombreDelProducto}. Soy `;
+    }
+
     var url = "https://api.whatsapp.com/send?phone=" + numero + "&text=" + encodeURIComponent(mensaje);
     window.open(url, '_blank');
 }
 
 //Mensaje de bienvenida
 function abrirWhatsAppBienvenida() {
-    var numero = "541158473075"; // Reemplaza con tu número en formato internacional sin el signo "+"
+    var numero = "541144701604"; // Reemplaza con tu número en formato internacional sin el signo "+"
     var mensaje = "¡Hola! quiero saber de "; // Mensaje de bienvenida
     var url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
 }
 // Función para agregar productos al DOM
-function agregarProducto(productos, contenedor, esOferta = false) {
+function agregarProducto(productos, contenedor, tipo) {
     productos.forEach(producto => {
         let article = document.createElement('article');
         article.classList.add('article');
-
-        // Agregar clase adicional si es una oferta
-        if (esOferta) {
-            article.classList.add('oferta');
-        }
 
         // Crear la imagen del producto
         let imgProducto = document.createElement('img');
@@ -113,7 +191,7 @@ function agregarProducto(productos, contenedor, esOferta = false) {
 
         // Género del producto
         let genero = document.createElement('p');
-        genero.textContent = `${producto.genero}`;
+        genero.textContent = `Género: ${producto.genero}`;
         genero.classList.add('genero');
 
         // Familia olfativa
@@ -141,11 +219,10 @@ function agregarProducto(productos, contenedor, esOferta = false) {
         divButton.classList.add('divButton');
 
         // Botón de WhatsApp
-        let buttonPedirW = document.createElement('button');
-        buttonPedirW.textContent = 'Pedir por Whatsapp';
-        buttonPedirW.classList.add('buttonPedirW');
-        buttonPedirW.addEventListener('click', () => abrirWhatsApp(producto.nombre));
-
+        let buttonComprarParaEncargar = document.createElement('button');
+        buttonComprarParaEncargar.textContent = tipo === "disponible" ? 'Comprar por Whatsapp' : 'Encargar por Whatsapp';
+        buttonComprarParaEncargar.classList.add('buttonComprarParaEncargar');
+        buttonComprarParaEncargar.addEventListener('click', () => abrirWhatsApp(producto.nombre, tipo));
 
         // Agregar elementos al contenedor de detalles
         divProducto.appendChild(h2);
@@ -154,7 +231,7 @@ function agregarProducto(productos, contenedor, esOferta = false) {
         divProducto.appendChild(notasOlfativas);
         divProducto.appendChild(ocasion);
         divProducto.appendChild(descripcion);
-        divButton.appendChild(buttonPedirW);
+        divButton.appendChild(buttonComprarParaEncargar);
         divProducto.appendChild(divButton);
 
         // Agregar imagen y detalles al artículo
@@ -181,30 +258,17 @@ function handleScroll() {
 // Cargar productos al DOM
 document.addEventListener('DOMContentLoaded', () => {
     const contenedorDisponibles = document.querySelector('.disponibles');
-    const contenedorOfertas = document.querySelector('.ofertas');
     const contenedorParaEncargar = document.querySelector('.paraEncargar');
 
     // Verificar si las listas tienen elementos antes de agregarlos
     if (disponibles.length > 0) {
-        agregarProducto(disponibles, contenedorDisponibles);
-    }
-    if (ofertas.length > 0) {
-        agregarProducto(ofertas, contenedorOfertas, true); // true para indicar que son ofertas
+        agregarProducto(disponibles, contenedorDisponibles, "disponible");
     }
     if (paraEncargar.length > 0) {
-        agregarProducto(paraEncargar, contenedorParaEncargar);
+        agregarProducto(paraEncargar, contenedorParaEncargar, "encargar");
     }
 
     // Configurar el evento de scroll para animaciones
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Ejecutar al cargar la página para mostrar los elementos visibles
-    
-    document.querySelectorAll('.pregunta-btn').forEach(button => {
-    button.addEventListener('click', () => {
-        const pregunta = button.parentElement;
-        pregunta.classList.toggle('active');
-    });
-});
-    
-    
 });

@@ -1,5 +1,6 @@
+
 :root {
-  --color-primario: #f1396d;
+  --color-primario: #ff6aa9;
   --color-secundario: #fbc5d8;
   --color-fondo: #f8f5f6;
   --color-texto: #1c1c1c;
@@ -24,11 +25,10 @@ body {
 header {
   font-family: 'Cinzel', serif;
   background: var(--color-secundario);
-  
   padding: 1.5rem;
   text-align: center;
   position: relative;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .nav {
@@ -56,11 +56,14 @@ header {
 }
 
 .nav li a {
+  display: inline-block;
   text-decoration: none;
   color: #333;
   font-family: 'Cinzel', serif;
-  font-weight: 700;
-  padding: o.5rem 0.25rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem;
   transition: all 0.3s ease;
   position: relative;
 }
@@ -72,16 +75,17 @@ header {
 .nav li a::after {
   content: '';
   position: absolute;
-  width: 0;
+  width: 100%;
   height: 2px;
   background: #b76e79; 
   bottom: 0;
   left: 0;
-  transition: width 0.3s ease;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
 .nav li a:hover::after {
-  width: 100%; 
+  transform: scaleX(1);
 }
 
 
@@ -90,7 +94,7 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
- margin-top: 0.5rem;
+  margin-top: 0.5rem;
   gap: 10px;
   transition: transform 0.3s ease;
 }
@@ -98,10 +102,10 @@ header {
 .logo:hover {
   transform: scale(1.05);
 }
-/*
+
 .nombreLogo {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   color: #333;
   transition: color 0.3s ease;
@@ -110,9 +114,9 @@ header {
 .nombreLogo:hover {
   color: #b76e79;
 }
-*/
+
 .imgLogo {
-  width: 80px; /* Ajusta el tamaño de la imagen */
+  width: 10rem; 
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -131,11 +135,11 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: space-around; /* Asegura que los elementos estén distribuidos con espacio entre ellos */
-  gap: 2rem; /* Espacio entre los elementos */
+  justify-content: space-around;
+  gap: 2rem; 
   max-width: 1440px;
   margin: 1 rem auto;
-   /* Permite que los elementos se ajusten si no caben en una sola línea */
+  
 }
 
 .article {
@@ -149,31 +153,30 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   color: black;
-  flex: 1 1 23%; /* Cada artículo toma aproximadamente el 23% del ancho, dejando espacio entre ellos */
-  margin: 0.2rem; /* Márgenes alrededor de cada artículo */
-  box-sizing: border-box; /* Asegura que los márgenes no afecten el tamaño total */
+  flex: 1 1 23%;
+  margin: 0.2rem;
+  box-sizing: border-box;
 
 }
 
 .imgProducto {
-  width: auto;
+  width: 80%;
   height: auto;
   margin-top: 1rem;
+  border-radius: 1rem;
   object-fit: contain;
-  background-color: black;
-  border-radius: 20px;
   transition: transform 0.5s ease, z-index 1s ease;
   z-index: 1;
 }
 
 .imgProducto:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   z-index: 10;
   position: relative;
 }
 
 .article:hover {
-  margin-bottom: 2rem; /* Ajusta este valor según el tamaño de la imagen */
+  margin-bottom: 2rem;
   transition: margin-bottom 0.25s ease;
 }
 
@@ -228,7 +231,7 @@ h2::after {
   margin-top: 0.5rem;
 }
 
-.buttonPedirW {
+.buttonComprarParaEncargar {
     flex: 1;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -259,10 +262,9 @@ h2::after {
 
 
 footer {
-
+  background: var(--color-primario);
   padding: 1rem;
   margin-top: 3rem;
-  background-color: var(--color-primario);
   border-top: 2px solid #a18cd1;
 }
 
@@ -365,17 +367,6 @@ footer {
   max-height: 500px;
 }
 
-.piePagina p{
-
-  padding: 1rem 3rem;
-  margin-top: 3rem;
-  border-top: 2px solid #a18cd1;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: 'Playfair Display', serif;
-  color: white;
-  
-}
 
 .titulo-div {
   font-family: 'Cinzel', serif;
@@ -395,22 +386,18 @@ footer {
   margin: 0.5rem auto;
 }
 
-.disponibles, .ofertas, .paraEncargar {
+.grid-container {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de tamaño igual */
-  gap: 1em; /* Espacio entre los artículos */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
   font-size: 2em;
   margin: 0.2rem;
 }
 
-
 .disponibles { color: #27ae60; }
-.ofertas { color: #e67e22; }
 .paraEncargar { color: #3498db; }
-.imgProducto {
-    height: 300px;
-  }
+
 @media (min-width: 1440px) {
   main {
     grid-template-rows: repeat(4, 1fr);
@@ -418,14 +405,14 @@ footer {
   
 
 @media (max-width: 1024px) {
-    .disponibles, .ofertas, .paraEncargar {
-      grid-template-columns: repeat(2, 1fr); /* En pantallas más pequeñas, muestra 2 columnas */
+    .disponibles, .paraEncargar {
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
     
 }
 @media (max-width: 768px) {
-  .disponibles, .ofertas, .paraEncargar {
-    grid-template-columns: 1fr; /* En pantallas muy pequeñas (móviles), muestra 1 columna */
+  .disponibles, .paraEncargar {
+    grid-template-columns: 1fr; 
   }
 }
