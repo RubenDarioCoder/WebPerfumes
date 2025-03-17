@@ -23,7 +23,7 @@ let LataffaHonorYGloria = {
 };
 
 let AlJhawharaDeLattafa = {
-    nombre: "Al Jhawhara de Lattafa",
+    nombre: "Al jhawhara de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Oriental",
@@ -33,7 +33,7 @@ let AlJhawharaDeLattafa = {
 };
 
 let AmberOudPrivateDeAlHaramain = {
-    nombre: "Amber Oud Private de Al Haramain",
+    nombre: "Amber oud private de al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -53,7 +53,7 @@ let YaraBourbonDeLataffa = {
 };
 
 let TanasukDeAlHaramain = {
-    nombre: "Tanasuk de Al Haramain",
+    nombre: "Tanasuk de al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Especiado",
