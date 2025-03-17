@@ -353,7 +353,7 @@ let ShaheenGoldDeLattafa = {
 };
 
 let NineAMDiveDeAfnan = {
-    nombre: "9AM Dive de Afnan",
+    nombre: "9am dive de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
@@ -473,7 +473,7 @@ let GlacierLeNoirDeMaisonAlhambra = {
 };
 
 let NinePMDeAfnan = {
-    nombre: "9PM de afnan",
+    nombre: "9pm de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
