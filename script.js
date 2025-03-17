@@ -523,7 +523,7 @@ let EclaireDeLattafa = {
 };
 
 let AmberOudGold9999DubaiAlHaramain = {
-    nombre: "Amber Oud Gold 999.9 Dubai de Al Haramain",
+    nombre: "Amber oud gold 999.9 dubai al haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -573,7 +573,7 @@ let AmberOudRubyDeAlHaramain = {
 };
 
 let UrbanManClubDeNuit = {
-    nombre: "Urban Man Club de Nuit",
+    nombre: "Urban man club de nuit",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -603,7 +603,7 @@ let JeanLoweImmortelDeMaisonAlhambra = {
 };
 
 let AmberOudGoldAlHaramain = {
-    nombre: "Amber Oud Gold de Al Haramain",
+    nombre: "Amber oud gold al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
