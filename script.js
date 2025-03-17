@@ -483,7 +483,7 @@ let NinePMDeAfnan = {
 };
 
 let AmberOudAquaDubaiDeAlHaramain = {
-    nombre: "Amber oud Aqua dubai de al haramain.",
+    nombre: "Amber oud Aqua dubai de al haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
