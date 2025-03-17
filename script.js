@@ -73,7 +73,7 @@ let RehlaDeAdyan = {
 };
 
 let TagHerColorataDeArmaf = {
-    nombre: "Tag Her Colorata de Armaf",
+    nombre: "Tag her colorata de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
