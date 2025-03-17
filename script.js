@@ -83,7 +83,7 @@ let TagHerColorataDeArmaf = {
 };
 
 let NitroRedDeDumont = {
-    nombre: "Nitro Red de Dumont",
+    nombre: "Nitro red de dumont",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
