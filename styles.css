@@ -1,11 +1,11 @@
 :root {
-  --color-primario: #000000; /* Negro */
-  --color-secundario: #FFD700; /* Oro */
-  --color-terciario: #C0C0C0; /* Plata */
-  --color-fondo: #1a1a1a; /* Gris oscuro */
-  --color-texto: #FFFFFF; /* Blanco */
-  --color-fondo-boton: #FFD700; /* Oro */
-  --sombra: 0 4px 8px rgba(255, 215, 0, 0.3); /* Sombra dorada */
+  --color-primario: #000000;
+  --color-secundario: #FFD700;
+  --color-terciario: #C0C0C0;
+  --color-fondo: #1a1a1a;
+  --color-texto: #FFFFFF;
+  --color-fondo-boton: #FFD700;
+  --sombra: 0 4px 8px rgba(255, 215, 0, 0.3);
 }
 
 * {
@@ -24,7 +24,7 @@ body {
 
 header {
   font-family: 'Cinzel', serif;
-  background: var(--color-5);
+  background: var(--color-primario);
   padding: 1.5rem;
   text-align: center;
   position: relative;
@@ -33,7 +33,7 @@ header {
 
 .nav {
   font-family: 'Lora', serif;
-  background: radial-gradient(circle, var(--color-3) 0%, var(--color-4) 100%);
+  background: radial-gradient(circle, var(--color-primario) 0%, var(--color-fondo) 100%);
   padding: 0;
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@ header {
 }
 
 .nav li a:hover {
-  color: var(--color-1);
+  color: var(--color-secundario);
 }
 
 .nav li a::after {
@@ -78,7 +78,6 @@ header {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: var(--color-1);
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -113,7 +112,7 @@ header {
 }
 
 .nombreLogo:hover {
-  color: var(--color-1);
+  color: var(--color-secundario);
 }
 
 .imgLogo {
@@ -212,7 +211,6 @@ main {
   height: auto;
   position: relative;
   border-radius: 10px;
-  background-color: var(--color-1);
   box-shadow: var(--sombra);
 }
 
@@ -221,7 +219,6 @@ main {
   display: block;
   width: 100px;
   height: 3px;
-  background: var(--color-2);
   margin: 0.5rem auto;
 }
 
@@ -233,7 +230,6 @@ main {
   padding: 0.2rem 1rem;
   border-radius: 20px;
   display: block;
-  background-color: var(--color-2);
 }
 
 .familiaOlfativa{
@@ -288,7 +284,6 @@ main {
   font-size: 1rem;
   text-align: center;
   text-decoration: none;
-  background-color: var(--color-1);
   color: #000000;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
@@ -309,7 +304,6 @@ main {
 
 
 footer {
-  background: var(--color-4);
   padding: 1rem;
   margin-top: 3rem;
   border-top: 2px solid #a18cd1;
@@ -332,7 +326,6 @@ footer {
   display: block;
   width: 100px;
   height: 3px;
-  background: var(--color-2);
   margin: 1rem auto;
 }
 
@@ -349,7 +342,6 @@ footer {
 }
 
 .contacto a:hover {
-  color: var(--color-3);
   transform: scale(1.2);
 }
 
@@ -380,7 +372,7 @@ footer {
   display: block;
   width: 100px;
   height: 3px;
-  background: var(--color-3);
+  background: var(--color-secundario);
   margin: 0.5rem auto;
 }
 
@@ -394,10 +386,9 @@ footer {
 }
 
 .piePagina {
-  background: var(--color-1);
   padding: 2rem 1rem;
   text-align: center;
-  border-top: 2px solid var(--color-2);
+  border-top: 2px solid var(--color-secundario);
   margin-top: 2rem;
 }
 
@@ -413,7 +404,7 @@ footer {
 }
 
 .textoCierre strong {
-  color: var(--color-3);
+  color: var(--color-secundario);
   font-weight: 700;
 }
 .disponibles { color: #27ae60; }

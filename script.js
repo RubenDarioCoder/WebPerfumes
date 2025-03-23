@@ -832,10 +832,9 @@ let AmethystDeLattafa = {
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
-/*paraEncargar.push(Afeefdelattafa, LataffaHonorYGloria, AlJhawharaDeLattafa, AmberOudPrivateDeAlHaramain, YaraBourbonDeLataffa, TanasukDeAlHaramain, RehlaDeAdyan,TagHerColorataDeArmaf, NitroRedDeDumont, AnsaamGoldDeLattafa, MayarNaturalDeLattafa, EjaaziDeLataffa, GlacierPourHommeDeMaisonAlhambra, SabahAlWardDeAlWataniah, MuskEssencialDeAdyan, PhilipsOpusNoirDeMaisonAlhambra, SillageDeClubDeNuit, HisConfessionDeLattafa, FakharDeLattafa, EmeerDeLattafa, QaedAlFursanDeLattafa, SouvenirBloomingBlissDeAfnan, TagHimUomoRossoDeArmaf, EternalDeLattafa, NinePMRebelAfnan, BlueDeBharara, WajoodDeLattafa, AlNobleWazeerDeLattafa, AlNobleAmeerDeLattafa, AmberOudDubaiNightDeAlHaramain, KalidDeLattafa, MughalFortDeLattafa, MandarinSkyDeArmaf, HayaDeLattafa, ShaheenGoldDeLattafa, NineAMDiveDeAfnan, UntoldDeClubDeNuit, KhanjarDeLattafa, HistoricDoriaDeAfnan, NobleBlushDeLattafa, DelilahDeMaisonAlhambra, MayarCherryIntenseDeLattafa, AmberOudUltraVioletDeAlHaramain, NebrasDeLattafa, OudForGloryDeLattafa, VentanaDeArmaf, GlacierLeNoirDeMaisonAlhambra, NinePMDeAfnan, AmberOudAquaDubaiDeAlHaramain, GoddessDeBharara, HerConfessionDeLattafa, EclaireDeLattafa, AmberOudGold9999DubaiAlHaramain, VintageCastleDeLattafa, SehrDeLattafa, KingDeBharara, AmberOudRubyDeAlHaramain, UrbanManClubDeNuit, IconicClubDeNuit, JeanLoweImmortelDeMaisonAlhambra, AmberOudGoldAlHaramain, KhamrahQahwaDeLattafa, YaraRosadoDeLattafa, MayarDeLattafa, IntenseManClubDeNuit, EmaanDeLattafa, YaraAsadDeLattafa, NineAMAfnan, AjwadDeLattafa, TeriaqDeLattafa, FhakarRoseDeLattafa, SakeenaDeLattafa, YaraTousDeLattafa, YaraMoiDeLattafa, YaraAsadZanzibarDeLattafa, ConfidentialDeLattafa, FabuloIntenseDeMaisonAlhambra, QaedAlFursanNegroDeLattafa, ToleenDeLattafa, KhamrahDeLattafa, CandeeOdysseyDeArmaf, GlacierUltraDeMaisonAlhambra, AmethystDeLattafa);
-*/
+paraEncargar.push(Afeefdelattafa, LataffaHonorYGloria, AlJhawharaDeLattafa, AmberOudPrivateDeAlHaramain, YaraBourbonDeLataffa, TanasukDeAlHaramain, RehlaDeAdyan,TagHerColorataDeArmaf, NitroRedDeDumont, AnsaamGoldDeLattafa, MayarNaturalDeLattafa, EjaaziDeLataffa, GlacierPourHommeDeMaisonAlhambra, SabahAlWardDeAlWataniah, MuskEssencialDeAdyan, PhilipsOpusNoirDeMaisonAlhambra, SillageDeClubDeNuit, HisConfessionDeLattafa, FakharDeLattafa, EmeerDeLattafa, QaedAlFursanDeLattafa, SouvenirBloomingBlissDeAfnan, TagHimUomoRossoDeArmaf, EternalDeLattafa, NinePMRebelAfnan, BlueDeBharara, WajoodDeLattafa, AlNobleWazeerDeLattafa, AlNobleAmeerDeLattafa, AmberOudDubaiNightDeAlHaramain, KalidDeLattafa, MughalFortDeLattafa, MandarinSkyDeArmaf, HayaDeLattafa, ShaheenGoldDeLattafa, NineAMDiveDeAfnan, UntoldDeClubDeNuit, KhanjarDeLattafa, HistoricDoriaDeAfnan, NobleBlushDeLattafa, DelilahDeMaisonAlhambra, MayarCherryIntenseDeLattafa, AmberOudUltraVioletDeAlHaramain, NebrasDeLattafa, OudForGloryDeLattafa, VentanaDeArmaf, GlacierLeNoirDeMaisonAlhambra, NinePMDeAfnan, AmberOudAquaDubaiDeAlHaramain, GoddessDeBharara, HerConfessionDeLattafa, EclaireDeLattafa, AmberOudGold9999DubaiAlHaramain, VintageCastleDeLattafa, SehrDeLattafa, KingDeBharara, AmberOudRubyDeAlHaramain, UrbanManClubDeNuit, IconicClubDeNuit, JeanLoweImmortelDeMaisonAlhambra, AmberOudGoldAlHaramain, KhamrahQahwaDeLattafa, YaraRosadoDeLattafa, MayarDeLattafa, IntenseManClubDeNuit, EmaanDeLattafa, YaraAsadDeLattafa, NineAMAfnan, AjwadDeLattafa, TeriaqDeLattafa, FhakarRoseDeLattafa, SakeenaDeLattafa, YaraTousDeLattafa, YaraMoiDeLattafa, YaraAsadZanzibarDeLattafa, ConfidentialDeLattafa, FabuloIntenseDeMaisonAlhambra, QaedAlFursanNegroDeLattafa, ToleenDeLattafa, KhamrahDeLattafa, CandeeOdysseyDeArmaf, GlacierUltraDeMaisonAlhambra, AmethystDeLattafa);
 
-// Función para abrir WhatsApp
+
 function abrirWhatsApp(nombreDelProducto, tipo) {
     var numero = "541158473075"; // Reemplaza con tu número
     var mensaje;
@@ -850,70 +849,57 @@ function abrirWhatsApp(nombreDelProducto, tipo) {
     window.open(url, '_blank');
 }
 
-//Mensaje de bienvenida
 function abrirWhatsAppBienvenida() {
     var numero = "541158473075"; // Reemplaza con tu número en formato internacional sin el signo "+"
     var mensaje = "¡Hola! quiero saber de "; // Mensaje de bienvenida
     var url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
 }
-// Función para agregar productos al DOM
 function agregarProducto(productos, contenedor, tipo) {
     productos.forEach(producto => {
         let article = document.createElement('article');
         article.classList.add('article');
 
-        // Crear la imagen del producto
         let imgProducto = document.createElement('img');
         imgProducto.src = `img/${producto.nombre}.jpg`;
         imgProducto.alt = producto.nombre;
         imgProducto.classList.add('imgProducto');
 
-        // Crear el contenedor de detalles del producto
         let divProducto = document.createElement('div');
         divProducto.classList.add('divProducto');
 
-        // Nombre del producto
         let h2 = document.createElement('h2');
         h2.textContent = producto.nombre;
         h2.classList.add('h2Producto');
 
-        // Género del producto
         let genero = document.createElement('p');
         genero.textContent = `${producto.genero}`;
         genero.classList.add('genero');
 
-        // Familia olfativa
         let familiaOlfativa = document.createElement('p');
         familiaOlfativa.textContent = `${producto.familia_olfativa}`;
         familiaOlfativa.classList.add('familiaOlfativa');
 
-        // Notas olfativas
         let notasOlfativas = document.createElement('p');
         notasOlfativas.textContent = `${producto.notas_olfativas.join(', ')}`;
         notasOlfativas.classList.add('notasOlfativas');
 
-        // Ocasión
         let ocasion = document.createElement('p');
         ocasion.textContent = `${producto.ocasion}`;
         ocasion.classList.add('ocasion');
 
-        // Descripción
         let descripcion = document.createElement('p');
         descripcion.textContent = producto.descripcion;
         descripcion.classList.add('descripcion');
 
-        // Contenedor de botones
         let divButton = document.createElement('div');
         divButton.classList.add('divButton');
 
-        // Botón de WhatsApp
         let buttonComprarParaEncargar = document.createElement('button');
         buttonComprarParaEncargar.textContent = tipo === "disponible" ? 'Comprar por Whatsapp' : 'Encargar por Whatsapp';
         buttonComprarParaEncargar.classList.add('buttonComprarParaEncargar');
         buttonComprarParaEncargar.addEventListener('click', () => abrirWhatsApp(producto.nombre, tipo));
 
-        // Agregar elementos al contenedor de detalles
         divProducto.appendChild(h2);
         divProducto.appendChild(genero);
         divProducto.appendChild(familiaOlfativa);
@@ -923,16 +909,13 @@ function agregarProducto(productos, contenedor, tipo) {
         divButton.appendChild(buttonComprarParaEncargar);
         divProducto.appendChild(divButton);
 
-        // Agregar imagen y detalles al artículo
         article.appendChild(imgProducto);
         article.appendChild(divProducto);
 
-        // Agregar artículo al contenedor
         contenedor.appendChild(article);
     });
 }
 
-// Función para detectar el scroll y mostrar animaciones
 function handleScroll() {
     const articles = document.querySelectorAll('.article');
     articles.forEach(article => {
@@ -943,13 +926,10 @@ function handleScroll() {
         }
     });
 }
-
-// Cargar productos al DOM
 document.addEventListener('DOMContentLoaded', () => {
     const contenedorDisponibles = document.querySelector('.disponibles');
     const contenedorParaEncargar = document.querySelector('.paraEncargar');
 
-    // Verificar si las listas tienen elementos antes de agregarlos
     if (disponibles.length > 0) {
         agregarProducto(disponibles, contenedorDisponibles, "disponible");
     }
@@ -957,7 +937,6 @@ document.addEventListener('DOMContentLoaded', () => {
         agregarProducto(paraEncargar, contenedorParaEncargar, "encargar");
     }
 
-    // Configurar el evento de scroll para animaciones
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Ejecutar al cargar la página para mostrar los elementos visibles
+    handleScroll();
 });
