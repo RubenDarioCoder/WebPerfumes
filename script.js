@@ -73,7 +73,7 @@ let RehlaDeAdyan = {
 };
 
 let TagHerColorataDeArmaf = {
-    nombre: "Tag Her Colorata de Armaf",
+    nombre: "Tag her colorata de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
@@ -83,7 +83,7 @@ let TagHerColorataDeArmaf = {
 };
 
 let NitroRedDeDumont = {
-    nombre: "Nitro Red de Dumont",
+    nombre: "Nitro red de dumont",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -93,7 +93,7 @@ let NitroRedDeDumont = {
 };
 
 let AnsaamGoldDeLattafa = {
-    nombre: "Ansaam Gold de Lattafa",
+    nombre: "Ansaam gold de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Dulce",
@@ -103,7 +103,7 @@ let AnsaamGoldDeLattafa = {
 };
 
 let MayarNaturalDeLattafa = {
-    nombre: "Mayar Natural de Lattafa",
+    nombre: "Mayar natural de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
@@ -123,7 +123,7 @@ let EjaaziDeLataffa = {
 };
 
 let GlacierPourHommeDeMaisonAlhambra = {
-    nombre: "Glacier Pour Homme de Maison Alhambra",
+    nombre: "Glacier pour homme de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -133,7 +133,7 @@ let GlacierPourHommeDeMaisonAlhambra = {
 };
 
 let SabahAlWardDeAlWataniah = {
-    nombre: "Sabah Al Ward de Al Wataniah",
+    nombre: "Sabah al ward de al wataniah",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -153,7 +153,7 @@ let MuskEssencialDeAdyan = {
 };
 
 let PhilipsOpusNoirDeMaisonAlhambra = {
-    nombre: "Philips Opus Noir de Maison Alhambra",
+    nombre: "Philips opus noir de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -163,7 +163,7 @@ let PhilipsOpusNoirDeMaisonAlhambra = {
 };
 
 let SillageDeClubDeNuit = {
-    nombre: "Sillage de Club de Nuit",
+    nombre: "Sillage de club de nuit",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -173,7 +173,7 @@ let SillageDeClubDeNuit = {
 };
 
 let HisConfessionDeLattafa = {
-    nombre: "His Confession de Lattafa",
+    nombre: "His confession de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -183,7 +183,7 @@ let HisConfessionDeLattafa = {
 };
 
 let FakharDeLattafa = {
-    nombre: "Fakhar de Lattafa",
+    nombre: "Fakhar de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -193,7 +193,7 @@ let FakharDeLattafa = {
 };
 
 let EmeerDeLattafa = {
-    nombre: "Emeer de Lattafa",
+    nombre: "Emeer de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -203,7 +203,7 @@ let EmeerDeLattafa = {
 };
 
 let QaedAlFursanDeLattafa = {
-    nombre: "Qaed Al Fursan de Lattafa",
+    nombre: "Qaed al fursan de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -213,7 +213,7 @@ let QaedAlFursanDeLattafa = {
 };
 
 let SouvenirBloomingBlissDeAfnan = {
-    nombre: "Souvenir Blooming Bliss de Afnan",
+    nombre: "Souvenir blooming bliss de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -223,7 +223,7 @@ let SouvenirBloomingBlissDeAfnan = {
 };
 
 let TagHimUomoRossoDeArmaf = {
-    nombre: "Tag Him Uomo Rosso de Armaf",
+    nombre: "Tag him uomo rosso de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -233,7 +233,7 @@ let TagHimUomoRossoDeArmaf = {
 };
 
 let EternalDeLattafa = {
-    nombre: "Eternal de Lattafa",
+    nombre: "Eternal de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -253,7 +253,7 @@ let NinePMRebelAfnan = {
 };
 
 let BlueDeBharara = {
-    nombre: "Blue de Bharara",
+    nombre: "Blue de bharara",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -263,7 +263,7 @@ let BlueDeBharara = {
 };
 
 let WajoodDeLattafa = {
-    nombre: "Wajood de Lattafa",
+    nombre: "Wajood de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -273,7 +273,7 @@ let WajoodDeLattafa = {
 };
 
 let AlNobleWazeerDeLattafa = {
-    nombre: "Al Noble Wazeer de Lattafa",
+    nombre: "Al noble wazeer de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -283,7 +283,7 @@ let AlNobleWazeerDeLattafa = {
 };
 
 let AlNobleAmeerDeLattafa = {
-    nombre: "Al Noble Ameer de Lattafa",
+    nombre: "Al noble ameer de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -293,7 +293,7 @@ let AlNobleAmeerDeLattafa = {
 };
 
 let AmberOudDubaiNightDeAlHaramain = {
-    nombre: "Amber Oud Dubai Night de Al Haramain",
+    nombre: "Amber oud dubai night de al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -303,7 +303,7 @@ let AmberOudDubaiNightDeAlHaramain = {
 };
 
 let KalidDeLattafa = {
-    nombre: "Kalid de Lattafa",
+    nombre: "Kalid de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -313,7 +313,7 @@ let KalidDeLattafa = {
 };
 
 let MughalFortDeLattafa = {
-    nombre: "Mughal Fort de Lattafa",
+    nombre: "Mughal fort de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -323,7 +323,7 @@ let MughalFortDeLattafa = {
 };
 
 let MandarinSkyDeArmaf = {
-    nombre: "Mandarin Sky de Armaf",
+    nombre: "Mandarin sky de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
@@ -333,7 +333,7 @@ let MandarinSkyDeArmaf = {
 };
 
 let HayaDeLattafa = {
-    nombre: "Haya de Lattafa",
+    nombre: "Haya de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -343,7 +343,7 @@ let HayaDeLattafa = {
 };
 
 let ShaheenGoldDeLattafa = {
-    nombre: "Shaheen Gold de Lattafa",
+    nombre: "Shaheen gold de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -353,7 +353,7 @@ let ShaheenGoldDeLattafa = {
 };
 
 let NineAMDiveDeAfnan = {
-    nombre: "9AM Dive de Afnan",
+    nombre: "9am dive de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
@@ -363,7 +363,7 @@ let NineAMDiveDeAfnan = {
 };
 
 let UntoldDeClubDeNuit = {
-    nombre: "Untold de Club de Nuit",
+    nombre: "Untold de club de nuit",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -373,7 +373,7 @@ let UntoldDeClubDeNuit = {
 };
 
 let KhanjarDeLattafa = {
-    nombre: "Khanjar de Lattafa",
+    nombre: "Khanjar de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -383,7 +383,7 @@ let KhanjarDeLattafa = {
 };
 
 let HistoricDoriaDeAfnan = {
-    nombre: "Historic Doria de Afnan",
+    nombre: "Historic doria de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -393,7 +393,7 @@ let HistoricDoriaDeAfnan = {
 };
 
 let NobleBlushDeLattafa = {
-    nombre: "Noble Blush de Lattafa",
+    nombre: "Noble blush de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -403,7 +403,7 @@ let NobleBlushDeLattafa = {
 };
 
 let DelilahDeMaisonAlhambra = {
-    nombre: "Delilah de Maison Alhambra",
+    nombre: "Delilah de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -413,7 +413,7 @@ let DelilahDeMaisonAlhambra = {
 };
 
 let MayarCherryIntenseDeLattafa = {
-    nombre: "Mayar Cherry Intense de Lattafa",
+    nombre: "Mayar cherry intense de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
@@ -423,7 +423,7 @@ let MayarCherryIntenseDeLattafa = {
 };
 
 let AmberOudUltraVioletDeAlHaramain = {
-    nombre: "Amber Oud Ultra Violet de Al Haramain",
+    nombre: "Amber oud ultra violet de al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -433,7 +433,7 @@ let AmberOudUltraVioletDeAlHaramain = {
 };
 
 let NebrasDeLattafa = {
-    nombre: "Nebras de Lattafa",
+    nombre: "Nebras de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -443,7 +443,7 @@ let NebrasDeLattafa = {
 };
 
 let OudForGloryDeLattafa = {
-    nombre: "Oud for Glory de Lattafa",
+    nombre: "Oud for glory de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -453,7 +453,7 @@ let OudForGloryDeLattafa = {
 };
 
 let VentanaDeArmaf = {
-    nombre: "Ventana de Armaf",
+    nombre: "Ventana de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -463,7 +463,7 @@ let VentanaDeArmaf = {
 };
 
 let GlacierLeNoirDeMaisonAlhambra = {
-    nombre: "Glacier Le Noir de Maison Alhambra",
+    nombre: "Glacier le noir de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -473,7 +473,7 @@ let GlacierLeNoirDeMaisonAlhambra = {
 };
 
 let NinePMDeAfnan = {
-    nombre: "9PM de Afnan",
+    nombre: "9pm de afnan",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -483,7 +483,7 @@ let NinePMDeAfnan = {
 };
 
 let AmberOudAquaDubaiDeAlHaramain = {
-    nombre: "Amber Oud Aqua Dubai de Al Haramain",
+    nombre: "Amber  oud Aqua dubai de al haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -493,7 +493,7 @@ let AmberOudAquaDubaiDeAlHaramain = {
 };
 
 let GoddessDeBharara = {
-    nombre: "Goddess de Bharara",
+    nombre: "Goddess de bharara",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -503,7 +503,7 @@ let GoddessDeBharara = {
 };
 
 let HerConfessionDeLattafa = {
-    nombre: "Her Confession de Lattafa",
+    nombre: "Her confession de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -513,7 +513,7 @@ let HerConfessionDeLattafa = {
 };
 
 let EclaireDeLattafa = {
-    nombre: "Eclaire de Lattafa",
+    nombre: "Eclaire de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -533,7 +533,7 @@ let AmberOudGold9999DubaiAlHaramain = {
 };
 
 let VintageCastleDeLattafa = {
-    nombre: "Vintage Castle de Lattafa",
+    nombre: "Vintage castle de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -543,7 +543,7 @@ let VintageCastleDeLattafa = {
 };
 
 let SehrDeLattafa = {
-    nombre: "Sehr de Lattafa",
+    nombre: "Sehr de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -553,7 +553,7 @@ let SehrDeLattafa = {
 };
 
 let KingDeBharara = {
-    nombre: "King de Bharara",
+    nombre: "King de bharara",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -563,7 +563,7 @@ let KingDeBharara = {
 };
 
 let AmberOudRubyDeAlHaramain = {
-    nombre: "Amber Oud Ruby de Al Haramain",
+    nombre: "Amber oud ruby de al Haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -583,7 +583,7 @@ let UrbanManClubDeNuit = {
 };
 
 let IconicClubDeNuit = {
-    nombre: "Iconic Club de Nuit",
+    nombre: "Iconic club de nuit",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -593,7 +593,7 @@ let IconicClubDeNuit = {
 };
 
 let JeanLoweImmortelDeMaisonAlhambra = {
-    nombre: "Jean Lowe Immortel de Maison Alhambra",
+    nombre: "Jean lowe immortel de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -613,7 +613,7 @@ let AmberOudGoldAlHaramain = {
 };
 
 let KhamrahQahwaDeLattafa = {
-    nombre: "Khamrah Qahwa de Lattafa",
+    nombre: "Khamrah qahwa de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Dulce",
@@ -623,7 +623,7 @@ let KhamrahQahwaDeLattafa = {
 };
 
 let YaraRosadoDeLattafa = {
-    nombre: "Yara Rosado de Lattafa",
+    nombre: "Yara rosado de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -633,7 +633,7 @@ let YaraRosadoDeLattafa = {
 };
 
 let MayarDeLattafa = {
-    nombre: "Mayar de Lattafa",
+    nombre: "Mayar de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
@@ -643,7 +643,7 @@ let MayarDeLattafa = {
 };
 
 let IntenseManClubDeNuit = {
-    nombre: "Intense Man Club de Nuit",
+    nombre: "Intense man club de nuit",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -653,7 +653,7 @@ let IntenseManClubDeNuit = {
 };
 
 let EmaanDeLattafa = {
-    nombre: "Emaan de Lattafa",
+    nombre: "Emaan de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -663,7 +663,7 @@ let EmaanDeLattafa = {
 };
 
 let YaraAsadDeLattafa = {
-    nombre: "Yara Asad de Lattafa",
+    nombre: "Yara asad de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -683,7 +683,7 @@ let NineAMAfnan = {
 };
 
 let AjwadDeLattafa = {
-    nombre: "Ajwad de Lattafa",
+    nombre: "Ajwad de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -693,7 +693,7 @@ let AjwadDeLattafa = {
 };
 
 let TeriaqDeLattafa = {
-    nombre: "Teriaq de Lattafa",
+    nombre: "Teriaq de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -703,7 +703,7 @@ let TeriaqDeLattafa = {
 };
 
 let FhakarRoseDeLattafa = {
-    nombre: "Fhakar Rose de Lattafa",
+    nombre: "Fhakar rose de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -713,7 +713,7 @@ let FhakarRoseDeLattafa = {
 };
 
 let SakeenaDeLattafa = {
-    nombre: "Sakeena de Lattafa",
+    nombre: "Sakeena de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -723,7 +723,7 @@ let SakeenaDeLattafa = {
 };
 
 let YaraTousDeLattafa = {
-    nombre: "Yara Tous de Lattafa",
+    nombre: "Yara tous de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -733,7 +733,7 @@ let YaraTousDeLattafa = {
 };
 
 let YaraMoiDeLattafa = {
-    nombre: "Yara Moi de Lattafa",
+    nombre: "Yara moi de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -743,7 +743,7 @@ let YaraMoiDeLattafa = {
 };
 
 let YaraAsadZanzibarDeLattafa = {
-    nombre: "Yara Asad Zanzíbar de Lattafa",
+    nombre: "Yara asad Zanzíbar de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -753,7 +753,7 @@ let YaraAsadZanzibarDeLattafa = {
 };
 
 let ConfidentialDeLattafa = {
-    nombre: "Confidential de Lattafa",
+    nombre: "Confidential de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -763,7 +763,7 @@ let ConfidentialDeLattafa = {
 };
 
 let FabuloIntenseDeMaisonAlhambra = {
-    nombre: "Fabulo Intense de Maison Alhambra",
+    nombre: "Fabulo intense de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -773,7 +773,7 @@ let FabuloIntenseDeMaisonAlhambra = {
 };
 
 let QaedAlFursanNegroDeLattafa = {
-    nombre: "Qaed Al Fursan Negro de Lattafa",
+    nombre: "Qaed al fursan negro de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
@@ -783,7 +783,7 @@ let QaedAlFursanNegroDeLattafa = {
 };
 
 let ToleenDeLattafa = {
-    nombre: "Toleen de Lattafa",
+    nombre: "Toleen de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -793,7 +793,7 @@ let ToleenDeLattafa = {
 };
 
 let KhamrahDeLattafa = {
-    nombre: "Khamrah de Lattafa",
+    nombre: "Khamrah de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Dulce",
@@ -803,7 +803,7 @@ let KhamrahDeLattafa = {
 };
 
 let CandeeOdysseyDeArmaf = {
-    nombre: "Candee Odyssey de Armaf",
+    nombre: "Candee odyssey de armaf",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -813,7 +813,7 @@ let CandeeOdysseyDeArmaf = {
 };
 
 let GlacierUltraDeMaisonAlhambra = {
-    nombre: "Glacier Ultra de Maison Alhambra",
+    nombre: "Glacier ultra de maison alhambra",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
@@ -823,7 +823,7 @@ let GlacierUltraDeMaisonAlhambra = {
 };
 
 let AmethystDeLattafa = {
-    nombre: "Amethyst de Lattafa",
+    nombre: "Amethyst de lattafa",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
@@ -832,8 +832,8 @@ let AmethystDeLattafa = {
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
-
-paraEncargar.push(Afeefdelattafa, LataffaHonorYGloria, AlJhawharaDeLattafa, AmberOudPrivateDeAlHaramain, YaraBourbonDeLataffa, TanasukDeAlHaramain, RehlaDeAdyan,TagHerColorataDeArmaf, NitroRedDeDumont, AnsaamGoldDeLattafa, MayarNaturalDeLattafa, EjaaziDeLataffa, GlacierPourHommeDeMaisonAlhambra, SabahAlWardDeAlWataniah, MuskEssencialDeAdyan, PhilipsOpusNoirDeMaisonAlhambra, SillageDeClubDeNuit, HisConfessionDeLattafa, FakharDeLattafa, EmeerDeLattafa, QaedAlFursanDeLattafa, SouvenirBloomingBlissDeAfnan, TagHimUomoRossoDeArmaf, EternalDeLattafa, NinePMRebelAfnan, BlueDeBharara, WajoodDeLattafa, AlNobleWazeerDeLattafa, AlNobleAmeerDeLattafa, AmberOudDubaiNightDeAlHaramain, KalidDeLattafa, MughalFortDeLattafa, MandarinSkyDeArmaf, HayaDeLattafa, ShaheenGoldDeLattafa, NineAMDiveDeAfnan, UntoldDeClubDeNuit, KhanjarDeLattafa, HistoricDoriaDeAfnan, NobleBlushDeLattafa, DelilahDeMaisonAlhambra, MayarCherryIntenseDeLattafa, AmberOudUltraVioletDeAlHaramain, NebrasDeLattafa, OudForGloryDeLattafa, VentanaDeArmaf, GlacierLeNoirDeMaisonAlhambra, NinePMDeAfnan, AmberOudAquaDubaiDeAlHaramain, GoddessDeBharara, HerConfessionDeLattafa, EclaireDeLattafa, AmberOudGold9999DubaiAlHaramain, VintageCastleDeLattafa, SehrDeLattafa, KingDeBharara, AmberOudRubyDeAlHaramain, UrbanManClubDeNuit, IconicClubDeNuit, JeanLoweImmortelDeMaisonAlhambra, AmberOudGoldAlHaramain, KhamrahQahwaDeLattafa, YaraRosadoDeLattafa, MayarDeLattafa, IntenseManClubDeNuit, EmaanDeLattafa, YaraAsadDeLattafa, NineAMAfnan, AjwadDeLattafa, TeriaqDeLattafa, FhakarRoseDeLattafa, SakeenaDeLattafa, YaraTousDeLattafa, YaraMoiDeLattafa, YaraAsadZanzibarDeLattafa, ConfidentialDeLattafa, FabuloIntenseDeMaisonAlhambra, QaedAlFursanNegroDeLattafa, ToleenDeLattafa, KhamrahDeLattafa, CandeeOdysseyDeArmaf, GlacierUltraDeMaisonAlhambra, AmethystDeLattafa);
+/*paraEncargar.push(Afeefdelattafa, LataffaHonorYGloria, AlJhawharaDeLattafa, AmberOudPrivateDeAlHaramain, YaraBourbonDeLataffa, TanasukDeAlHaramain, RehlaDeAdyan,TagHerColorataDeArmaf, NitroRedDeDumont, AnsaamGoldDeLattafa, MayarNaturalDeLattafa, EjaaziDeLataffa, GlacierPourHommeDeMaisonAlhambra, SabahAlWardDeAlWataniah, MuskEssencialDeAdyan, PhilipsOpusNoirDeMaisonAlhambra, SillageDeClubDeNuit, HisConfessionDeLattafa, FakharDeLattafa, EmeerDeLattafa, QaedAlFursanDeLattafa, SouvenirBloomingBlissDeAfnan, TagHimUomoRossoDeArmaf, EternalDeLattafa, NinePMRebelAfnan, BlueDeBharara, WajoodDeLattafa, AlNobleWazeerDeLattafa, AlNobleAmeerDeLattafa, AmberOudDubaiNightDeAlHaramain, KalidDeLattafa, MughalFortDeLattafa, MandarinSkyDeArmaf, HayaDeLattafa, ShaheenGoldDeLattafa, NineAMDiveDeAfnan, UntoldDeClubDeNuit, KhanjarDeLattafa, HistoricDoriaDeAfnan, NobleBlushDeLattafa, DelilahDeMaisonAlhambra, MayarCherryIntenseDeLattafa, AmberOudUltraVioletDeAlHaramain, NebrasDeLattafa, OudForGloryDeLattafa, VentanaDeArmaf, GlacierLeNoirDeMaisonAlhambra, NinePMDeAfnan, AmberOudAquaDubaiDeAlHaramain, GoddessDeBharara, HerConfessionDeLattafa, EclaireDeLattafa, AmberOudGold9999DubaiAlHaramain, VintageCastleDeLattafa, SehrDeLattafa, KingDeBharara, AmberOudRubyDeAlHaramain, UrbanManClubDeNuit, IconicClubDeNuit, JeanLoweImmortelDeMaisonAlhambra, AmberOudGoldAlHaramain, KhamrahQahwaDeLattafa, YaraRosadoDeLattafa, MayarDeLattafa, IntenseManClubDeNuit, EmaanDeLattafa, YaraAsadDeLattafa, NineAMAfnan, AjwadDeLattafa, TeriaqDeLattafa, FhakarRoseDeLattafa, SakeenaDeLattafa, YaraTousDeLattafa, YaraMoiDeLattafa, YaraAsadZanzibarDeLattafa, ConfidentialDeLattafa, FabuloIntenseDeMaisonAlhambra, QaedAlFursanNegroDeLattafa, ToleenDeLattafa, KhamrahDeLattafa, CandeeOdysseyDeArmaf, GlacierUltraDeMaisonAlhambra, AmethystDeLattafa);
+*/
 
 // Función para abrir WhatsApp
 function abrirWhatsApp(nombreDelProducto, tipo) {
