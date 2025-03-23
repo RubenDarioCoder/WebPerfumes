@@ -880,22 +880,22 @@ function agregarProducto(productos, contenedor, tipo) {
 
         // Género del producto
         let genero = document.createElement('p');
-        genero.textContent = `Género: ${producto.genero}`;
+        genero.textContent = `${producto.genero}`;
         genero.classList.add('genero');
 
         // Familia olfativa
         let familiaOlfativa = document.createElement('p');
-        familiaOlfativa.textContent = `Familia Olfativa: ${producto.familia_olfativa}`;
+        familiaOlfativa.textContent = `${producto.familia_olfativa}`;
         familiaOlfativa.classList.add('familiaOlfativa');
 
         // Notas olfativas
         let notasOlfativas = document.createElement('p');
-        notasOlfativas.textContent = `Notas Olfativas: ${producto.notas_olfativas.join(', ')}`;
+        notasOlfativas.textContent = `${producto.notas_olfativas.join(', ')}`;
         notasOlfativas.classList.add('notasOlfativas');
 
         // Ocasión
         let ocasion = document.createElement('p');
-        ocasion.textContent = `Ocasión: ${producto.ocasion}`;
+        ocasion.textContent = `${producto.ocasion}`;
         ocasion.classList.add('ocasion');
 
         // Descripción
