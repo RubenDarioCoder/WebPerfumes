@@ -295,7 +295,7 @@ main {
 
 
 .buttonPedirW:hover {
-  background-color: #6d3a5a;
+  background-color: var(--color-2);
   box-shadow: var(--sombra);
   transform: translateY(-2px);
 }
@@ -306,7 +306,7 @@ main {
 footer {
   padding: 1rem;
   margin-top: 3rem;
-  border-top: 2px solid #FFD700;
+  border-top: 2px solid var(--color-2);
 }
 
 .divContacto {
