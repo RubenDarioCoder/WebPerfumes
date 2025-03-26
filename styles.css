@@ -171,7 +171,7 @@ main {
 }
 
 .imgProducto {
-  width: 50%;
+  width: 60%;
   height: auto;
   margin-top: 1rem;
   border-radius: 1rem;
@@ -295,7 +295,7 @@ main {
 
 
 .buttonPedirW:hover {
-  background-color: var(--color-2);
+  background-color: #6d3a5a;
   box-shadow: var(--sombra);
   transform: translateY(-2px);
 }
