@@ -1,5 +1,7 @@
+
 let disponibles = [];
 let paraEncargar = [];
+
 
 let Afeefdelattafa = {
     nombre: "Afeef de lattafa",
@@ -481,7 +483,7 @@ let NinePMDeAfnan = {
 };
 
 let AmberOudAquaDubaiDeAlHaramain = {
-    nombre: "Amber oud aqua dubai de al haramain",
+    nombre: "Amber  oud Aqua dubai de al haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
@@ -829,6 +831,8 @@ let AmethystDeLattafa = {
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
+
+disponibles.push();
 
 paraEncargar.push(Afeefdelattafa, LataffaHonorYGloria, AlJhawharaDeLattafa, AmberOudPrivateDeAlHaramain, YaraBourbonDeLataffa, TanasukDeAlHaramain, RehlaDeAdyan,TagHerColorataDeArmaf, NitroRedDeDumont, AnsaamGoldDeLattafa, MayarNaturalDeLattafa, EjaaziDeLataffa, GlacierPourHommeDeMaisonAlhambra, SabahAlWardDeAlWataniah, MuskEssencialDeAdyan, PhilipsOpusNoirDeMaisonAlhambra, SillageDeClubDeNuit, HisConfessionDeLattafa, FakharDeLattafa, EmeerDeLattafa, QaedAlFursanDeLattafa, SouvenirBloomingBlissDeAfnan, TagHimUomoRossoDeArmaf, EternalDeLattafa, NinePMRebelAfnan, BlueDeBharara, WajoodDeLattafa, AlNobleWazeerDeLattafa, AlNobleAmeerDeLattafa, AmberOudDubaiNightDeAlHaramain, KalidDeLattafa, MughalFortDeLattafa, MandarinSkyDeArmaf, HayaDeLattafa, ShaheenGoldDeLattafa, NineAMDiveDeAfnan, UntoldDeClubDeNuit, KhanjarDeLattafa, HistoricDoriaDeAfnan, NobleBlushDeLattafa, DelilahDeMaisonAlhambra, MayarCherryIntenseDeLattafa, AmberOudUltraVioletDeAlHaramain, NebrasDeLattafa, OudForGloryDeLattafa, VentanaDeArmaf, GlacierLeNoirDeMaisonAlhambra, NinePMDeAfnan, AmberOudAquaDubaiDeAlHaramain, GoddessDeBharara, HerConfessionDeLattafa, EclaireDeLattafa, AmberOudGold9999DubaiAlHaramain, VintageCastleDeLattafa, SehrDeLattafa, KingDeBharara, AmberOudRubyDeAlHaramain, UrbanManClubDeNuit, IconicClubDeNuit, JeanLoweImmortelDeMaisonAlhambra, AmberOudGoldAlHaramain, KhamrahQahwaDeLattafa, YaraRosadoDeLattafa, MayarDeLattafa, IntenseManClubDeNuit, EmaanDeLattafa, YaraAsadDeLattafa, NineAMAfnan, AjwadDeLattafa, TeriaqDeLattafa, FhakarRoseDeLattafa, SakeenaDeLattafa, YaraTousDeLattafa, YaraMoiDeLattafa, YaraAsadZanzibarDeLattafa, ConfidentialDeLattafa, FabuloIntenseDeMaisonAlhambra, QaedAlFursanNegroDeLattafa, ToleenDeLattafa, KhamrahDeLattafa, CandeeOdysseyDeArmaf, GlacierUltraDeMaisonAlhambra, AmethystDeLattafa);
 
