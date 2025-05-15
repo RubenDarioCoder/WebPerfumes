@@ -1,104 +1,101 @@
 <!DOCTYPE html>
-   <html lang="es">
-   <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&family=Lora:wght@400;700&family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
-       <meta charset="UTF-8">
-       <link rel="stylesheet" href="styles.css">
-       <link rel="icon" href="img/logoTitulo.ico" type="image/x-icon">
-       <title>Perfumes Sabri</title>
-   </head>
-   <body>
-       <header id="header">
-           <nav class="nav">
-                <li><a href="#header">Inicio</a></li>
-                <li><a href="#main">Productos</a></li>
-                <li><a href="#divContacto">Contacto</a></li>
-           </nav>
-           <div class="logo">
-                <div class="nombreLogo"></div>
-                <img class="imgLogo" src="img/logoPrincipal.jpg" alt=""></img>
-           </div>
-           <div><p class="bienvenida">Bienvenidos a Perfumes Sabri
-
-            Descubre el mundo de las fragancias con nosotros. Nos apasiona ofrecerte una selección exclusiva de perfumes que capturan esencias únicas y memorables. 
-            
-            Explora nuestra colección de productos y encuentra aquellos perfumes que puedes encargar para vivir una experiencia olfativa inolvidable. ¡Bienvenido a un viaje de sensaciones y elegancia!</p></div>
-       </header>
-
-       <main id="main">
-           
-           <h2 class="titulo-div">Para Encargar</h2>
-           <div class="paraEncargar grid-container"></div>
-       </main>
-
-       <footer>
-           <div class="divContacto" id="divContacto">
-               <h2 class="h2Contacto">Visitanos</h2>
-           </div>
-           <section>
-               <div class="contacto" id="contacto">
-                  <a href="https://www.tiktok.com/@sabri.perfumes_?_t=ZM-8uxpjaoUjXL&_r=1" target="_blank">
-                      <img src="img/logotiktok.png" alt=""></img>
-                  </a>
-                  <a href="https://www.instagram.com/sabri.perfumes_?igsh=MXFwNndnaGRxMmJnZw==" target="_blank">
-                      <img src="img/logoinstagram.png" alt=""></img>
-                  </a>
-                  <a href="#" onclick="abrirWhatsAppBienvenida()">
-                      <img src="img/logowhatsapp.png" alt=""></img>
-                  </a>
-               </div>
-           </section>
-           
-           <!--<section class="preguntasFrecuentes" id="preguntasFrecuentes">
-    <h2 class="h2PreguntasFrecuentes">Preguntas Frecuentes</h2>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Cómo elijo el perfume adecuado para mí? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>Te recomendamos considerar tus preferencias de fragancia (floral, cítrica, amaderada, etc.) y la ocasión en la que lo usarás. También puedes consultar nuestras descripciones y notas olfativas.</p>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&family=Lora:wght@400;700&family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logoTitulo.ico" type="image/x-icon">
+    <title>Perfumes</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="nav">
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#main">Productos</a></li>
+            <li><a href="#divContacto">Redes</a></li>
+        </nav>
+        <div class="logo">
+            <div class="nombreLogo"></div>
+            <img class="imgLogo" src="img/logoPrincipal.jpg" alt="">
         </div>
-    </div>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Cuál es la diferencia entre perfume, eau de parfum y eau de toilette? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>La diferencia principal es la concentración de esencia. El perfume tiene la mayor concentración, seguido del eau de parfum y luego el eau de toilette, que es más ligero.</p>
+        <div>
+            <p class="bienvenida">
+                Bienvenidos a Sabrina Perfumes
+                Descubre el mundo de las fragancias con nosotros. Nos apasiona ofrecerte una selección exclusiva de perfumes que capturan esencias únicas y memorables.
+                Explora nuestra colección de productos y encuentra aquellos perfumes que puedes encargar para vivir una experiencia olfativa inolvidable. ¡Bienvenido a un viaje de sensaciones y elegancia!
+            </p>
         </div>
-    </div>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Los perfumes tienen fecha de caducidad? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>Sí, los perfumes suelen tener una vida útil de 3 a 5 años si se almacenan correctamente, lejos de la luz directa y el calor.</p>
+    </header>
+    <main id="main">
+        <!--<h2 class="titulo-div">Disponibles</h2>
+        <div class="disponibles grid-container"></div>-->
+        <h2 class="titulo-div">Para Encargar</h2>
+        <div class="paraEncargar grid-container"></div>
+    </main>
+    <footer>
+        <div class="divContacto" id="divContacto">
+            <h2 class="h2Contacto">Visitanos</h2>
         </div>
-    </div>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Qué métodos de pago aceptan? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias.</p>
-        </div>
-    </div>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Ofrecen muestras de perfumes antes de comprar? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>Sí, ofrecemos kits de muestras para que puedas probar varias fragancias antes de decidirte por una.</p>
-        </div>
-    </div>
-    <div class="pregunta">
-        <button class="pregunta-btn">¿Puedo realizar un pedido por teléfono? <span class="icon">+</span></button>
-        <div class="respuesta">
-            <p>Sí, puedes contactarnos en nuestro número de atención al cliente para realizar pedidos telefónicos.</p>
-        </div>
-    </div>
-</section>-->
- <section class="piePagina">
-    <p class="textoCierre">
-        Gracias por visitar <strong>Perfumes Sabri</strong>. Esperamos que hayas disfrutado explorando nuestra colección de fragancias únicas y memorables. Estamos aquí para ayudarte a encontrar el perfume perfecto que se adapte a tu estilo y personalidad. 
-        <br><br>
-        ¡No dudes en contactarnos si tienes alguna pregunta o necesitas asesoramiento! Tu satisfacción es nuestra prioridad.
-    </p>
- </section>
-           
-           
-       </footer>
-       <script src="script.js"></script>
-   </body>
-   </html>
+        <section>
+            <div class="contacto" id="contacto">
+                <a href="https://www.tiktok.com/@sabri.perfumes_?_t=ZM-8uxpjaoUjXL&_r=1" target="_blank">
+                    <img src="img/logotiktok.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/sabri.perfumes_?igsh=MXFwNndnaGRxMmJnZw==" target="_blank">
+                    <img src="img/logoinstagram.png" alt="">
+                </a>
+                <a href="#" onclick="abrirWhatsAppBienvenida()">
+                    <img src="img/logowhatsapp.png" alt="">
+                </a>
+            </div>
+        </section>
+        <!--<section class="preguntasFrecuentes" id="preguntasFrecuentes">
+            <h2 class="h2PreguntasFrecuentes">Preguntas Frecuentes</h2>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Cómo elijo el perfume adecuado para mí? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>Te recomendamos considerar tus preferencias de fragancia (floral, cítrica, amaderada, etc.) y la ocasión en la que lo usarás. También puedes consultar nuestras descripciones y notas olfativas.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Cuál es la diferencia entre perfume, eau de parfum y eau de toilette? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>La diferencia principal es la concentración de esencia. El perfume tiene la mayor concentración, seguido del eau de parfum y luego el eau de toilette, que es más ligero.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Los perfumes tienen fecha de caducidad? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>Sí, los perfumes suelen tener una vida útil de 3 a 5 años si se almacenan correctamente, lejos de la luz directa y el calor.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Qué métodos de pago aceptan? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Ofrecen muestras de perfumes antes de comprar? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>Sí, ofrecemos kits de muestras para que puedas probar varias fragancias antes de decidirte por una.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button class="pregunta-btn">¿Puedo realizar un pedido por teléfono? <span class="icon">+</span></button>
+                <div class="respuesta">
+                    <p>Sí, puedes contactarnos en nuestro número de atención al cliente para realizar pedidos telefónicos.</p>
+                </div>
+            </div>
+        </section>-->
+        <section class="piePagina">
+            <p class="textoCierre">
+                Gracias por visitar <strong>Sabrina Perfumes</strong>. Esperamos que hayas disfrutado explorando nuestra colección de fragancias únicas y memorables. Estamos aquí para ayudarte a encontrar el perfume perfecto que se adapte a tu estilo y personalidad.<br><br>
+                ¡No dudes en contactarnos si tienes alguna pregunta o necesitas asesoramiento! Tu satisfacción es nuestra prioridad.
+            </p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
