@@ -171,7 +171,7 @@ main {
 }
 
 .imgProducto {
-  width: 50%;
+  width: 60%;
   height: auto;
   margin-top: 1rem;
   border-radius: 1rem;
@@ -306,7 +306,7 @@ main {
 footer {
   padding: 1rem;
   margin-top: 3rem;
-  border-top: 2px solid #a18cd1;
+  border-top: 2px solid var(--color-2);
 }
 
 .divContacto {
