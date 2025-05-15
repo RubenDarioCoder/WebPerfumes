@@ -1,8 +1,6 @@
-// Arrays para almacenar los productos
 let disponibles = [];
 let paraEncargar = [];
 
-// Definición de los productos
 let Afeefdelattafa = {
     nombre: "Afeef de lattafa",
     presentacion: "Eau de Parfum, 100ml",
@@ -483,7 +481,7 @@ let NinePMDeAfnan = {
 };
 
 let AmberOudAquaDubaiDeAlHaramain = {
-    nombre: "Amber  oud Aqua dubai de al haramain",
+    nombre: "Amber oud aqua dubai de al haramain",
     presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
