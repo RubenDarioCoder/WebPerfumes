@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 
 let disponibles = [];
 let paraEncargar = [];
 
 
-=======
 let disponibles = [];
 let paraEncargar = [];
-
->>>>>>> ce6c5aee1a9f9af8db839048b7283b9f7d8d1071
 let Afeefdelattafa = {
     nombre: "Afeef de lattafa",
     presentacion: "Eau de Parfum",
