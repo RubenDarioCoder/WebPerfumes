@@ -197,8 +197,8 @@ main {
 }
 
 .divProducto p:not(.genero)::before {
-  content: "•"; 
-  color: var(--color-1);
+  content: " • "; 
+  color: var(--color-2);
   font-size: 1.2em;
   margin-right: 0.3rem;
   display: inline-block;
