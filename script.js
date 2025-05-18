@@ -1,839 +1,833 @@
-<<<<<<< HEAD
 
 let disponibles = [];
 let paraEncargar = [];
 
 
-=======
-let disponibles = [];
-let paraEncargar = [];
-
->>>>>>> ce6c5aee1a9f9af8db839048b7283b9f7d8d1071
 let Afeefdelattafa = {
     nombre: "Afeef de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Floral",
-    notas_olfativas: ["Jazmín", "sándalo", "vainilla"],
+    notas_olfativas: ["jazmín", "sándalo", "vainilla"],
     ocasion: "Noche, especial",
     descripcion: "Un aroma envolvente y sensual, inspirado en la belleza de los desiertos árabes."
 };
 let LataffaHonorYGloria = {
     nombre: "Lataffa honor y gloria",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Dulce",
-    notas_olfativas: ["Vainilla", "ámbar", "azúcar caramelizado"],
+    notas_olfativas: ["vainilla", "ámbar", "azúcar caramelizado"],
     ocasion: "Noche, especial",
     descripcion: "Un aroma dulce y seductor, perfecto para ocasiones especiales."
 };
 
 let AlJhawharaDeLattafa = {
     nombre: "Al jhawhara de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Oriental",
-    notas_olfativas: ["Jazmín", "vainilla", "ámbar"],
+    notas_olfativas: ["jazmín", "vainilla", "ámbar"],
     ocasion: "Noche, formal",
     descripcion: "Un perfume elegante y sofisticado con un toque oriental."
 };
 
 let AmberOudPrivateDeAlHaramain = {
-    nombre: "Amber oud private de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber oud private de al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let YaraBourbonDeLataffa = {
     nombre: "Yara bourbon de lataffa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Gourmand",
-    notas_olfativas: ["Vainilla", "bourbon", "azúcar"],
+    notas_olfativas: ["vainilla", "bourbon", "azúcar"],
     ocasion: "Día, noche",
     descripcion: "Un perfume dulce y adictivo, perfecto para cualquier ocasión."
 };
 
 let TanasukDeAlHaramain = {
-    nombre: "Tanasuk de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Tanasuk de al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Especiado",
-    notas_olfativas: ["Azafrán", "rosa", "ámbar"],
+    notas_olfativas: ["azafrán", "rosa", "ámbar"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma exótico y cautivador, inspirado en las tradiciones árabes."
 };
 
 let RehlaDeAdyan = {
     nombre: "Rehla de adyan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Oud", "vainilla", "pachulí"],
+    notas_olfativas: ["oud", "vainilla", "pachulí"],
     ocasion: "Noche, especial",
     descripcion: "Un perfume que evoca un viaje místico y enriquecedor."
 };
 
 let TagHerColorataDeArmaf = {
     nombre: "Tag her colorata de armaf",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
-    notas_olfativas: ["Frutos rojos", "jazmín", "vainilla"],
+    notas_olfativas: ["frutos rojos", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma fresco y femenino, ideal para mujeres modernas."
 };
 
 let NitroRedDeDumont = {
     nombre: "Nitro red de dumont",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "cuero", "ámbar"],
+    notas_olfativas: ["pimienta", "cuero", "ámbar"],
     ocasion: "Noche, formal",
     descripcion: "Un perfume audaz y energético, para hombres con carácter."
 };
 
 let AnsaamGoldDeLattafa = {
     nombre: "Ansaam gold de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Dulce",
-    notas_olfativas: ["Jazmín", "vainilla", "almizcle"],
+    notas_olfativas: ["jazmín", "vainilla", "almizcle"],
     ocasion: "Noche, especial",
     descripcion: "Un aroma glamoroso y sofisticado, perfecto para ocasiones especiales."
 };
 
 let MayarNaturalDeLattafa = {
     nombre: "Mayar natural de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
-    notas_olfativas: ["Frutos rojos", "jazmín", "vainilla"],
+    notas_olfativas: ["frutos rojos", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y juvenil, ideal para el día a día."
 };
 
 let EjaaziDeLataffa = {
     nombre: "Emaan de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "ámbar"],
+    notas_olfativas: ["pimienta", "madera de cedro", "ámbar"],
     ocasion: "Día, noche",
     descripcion: "Un aroma masculino y sofisticado, ideal para hombres modernos."
 };
 
 let GlacierPourHommeDeMaisonAlhambra = {
     nombre: "Glacier pour homme de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, formal",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let SabahAlWardDeAlWataniah = {
     nombre: "Sabah al ward de al wataniah",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let MuskEssencialDeAdyan = {
     nombre: "Musk essencial de adyan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Musk",
-    notas_olfativas: ["Almizcle", "vainilla", "ámbar"],
+    notas_olfativas: ["almizcle", "vainilla", "ámbar"],
     ocasion: "Día, noche",
     descripcion: "Un perfume suave y sensual, perfecto para cualquier ocasión."
 };
 
 let PhilipsOpusNoirDeMaisonAlhambra = {
     nombre: "Philips opus noir de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let SillageDeClubDeNuit = {
     nombre: "Sillage de club de nuit",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let HisConfessionDeLattafa = {
     nombre: "His confession de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let FakharDeLattafa = {
     nombre: "Fakhar de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let EmeerDeLattafa = {
     nombre: "Emeer de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let QaedAlFursanDeLattafa = {
     nombre: "Qaed al fursan de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let SouvenirBloomingBlissDeAfnan = {
     nombre: "Souvenir blooming bliss de afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let TagHimUomoRossoDeArmaf = {
     nombre: "Tag him uomo rosso de armaf",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let EternalDeLattafa = {
     nombre: "Eternal de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let NinePMRebelAfnan = {
     nombre: "9pm rebel afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let BlueDeBharara = {
     nombre: "Blue de bharara",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let WajoodDeLattafa = {
     nombre: "Wajood de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let AlNobleWazeerDeLattafa = {
     nombre: "Al noble wazeer de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let AlNobleAmeerDeLattafa = {
     nombre: "Al noble ameer de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let AmberOudDubaiNightDeAlHaramain = {
-    nombre: "Amber oud dubai night de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber oud dubai night de al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let KalidDeLattafa = {
     nombre: "Kalid de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let MughalFortDeLattafa = {
     nombre: "Mughal fort de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let MandarinSkyDeArmaf = {
     nombre: "Mandarin sky de armaf",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
-    notas_olfativas: ["Mandarina", "bergamota", "madera de cedro"],
+    notas_olfativas: ["mandarina", "bergamota", "madera de cedro"],
     ocasion: "Día, noche",
     descripcion: "Un aroma fresco y vibrante, ideal para el día a día."
 };
 
 let HayaDeLattafa = {
     nombre: "Haya de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let ShaheenGoldDeLattafa = {
     nombre: "Shaheen gold de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let NineAMDiveDeAfnan = {
     nombre: "9am dive de afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
-    notas_olfativas: ["Mandarina", "bergamota", "madera de cedro"],
+    notas_olfativas: ["mandarina", "bergamota", "madera de cedro"],
     ocasion: "Día, noche",
     descripcion: "Un aroma fresco y vibrante, ideal para el día a día."
 };
 
 let UntoldDeClubDeNuit = {
     nombre: "Untold de club de nuit",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let KhanjarDeLattafa = {
     nombre: "Khanjar de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let HistoricDoriaDeAfnan = {
     nombre: "Historic doria de afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let NobleBlushDeLattafa = {
     nombre: "Noble blush de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let DelilahDeMaisonAlhambra = {
     nombre: "Delilah de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let MayarCherryIntenseDeLattafa = {
     nombre: "Mayar cherry intense de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
-    notas_olfativas: ["Cereza", "jazmín", "vainilla"],
+    notas_olfativas: ["cereza", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma dulce y jugoso, perfecto para mujeres jóvenes."
 };
 
 let AmberOudUltraVioletDeAlHaramain = {
-    nombre: "Amber oud ultra violet de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber oud ultra violet de al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let NebrasDeLattafa = {
     nombre: "Nebras de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let OudForGloryDeLattafa = {
     nombre: "Oud for glory de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Oud", "madera de cedro", "vainilla"],
+    notas_olfativas: ["oud", "madera de cedro", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let VentanaDeArmaf = {
     nombre: "Ventana de armaf",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let GlacierLeNoirDeMaisonAlhambra = {
     nombre: "Glacier le noir de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let NinePMDeAfnan = {
     nombre: "9pm de afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let AmberOudAquaDubaiDeAlHaramain = {
-    nombre: "Amber oud aqua dubai de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber  oud Aqua dubai de al haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let GoddessDeBharara = {
     nombre: "Goddess de bharara",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let HerConfessionDeLattafa = {
     nombre: "Her confession de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let EclaireDeLattafa = {
     nombre: "Eclaire de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let AmberOudGold9999DubaiAlHaramain = {
     nombre: "Amber oud gold 999.9 dubai al haramain",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let VintageCastleDeLattafa = {
     nombre: "Vintage castle de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let SehrDeLattafa = {
     nombre: "Sehr de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let KingDeBharara = {
     nombre: "King de bharara",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let AmberOudRubyDeAlHaramain = {
-    nombre: "Amber oud ruby de al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber oud ruby de al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let UrbanManClubDeNuit = {
     nombre: "Urban man club de nuit",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let IconicClubDeNuit = {
     nombre: "Iconic club de nuit",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let JeanLoweImmortelDeMaisonAlhambra = {
     nombre: "Jean lowe immortel de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let AmberOudGoldAlHaramain = {
-    nombre: "Amber oud gold al haramain",
-    presentacion: "Eau de Parfum",
+    nombre: "Amber oud gold al Haramain",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Amaderado",
-    notas_olfativas: ["Ambar", "oud", "vainilla"],
+    notas_olfativas: ["ámbar", "oud", "vainilla"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para quienes buscan algo único."
 };
 
 let KhamrahQahwaDeLattafa = {
     nombre: "Khamrah qahwa de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Dulce",
-    notas_olfativas: ["Vainilla", "café", "azúcar"],
+    notas_olfativas: ["vainilla", "café", "azúcar"],
     ocasion: "Noche, especial",
     descripcion: "Un aroma dulce y seductor, perfecto para ocasiones especiales."
 };
 
 let YaraRosadoDeLattafa = {
     nombre: "Yara rosado de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let MayarDeLattafa = {
     nombre: "Mayar de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral Frutal",
-    notas_olfativas: ["Frutos rojos", "jazmín", "vainilla"],
+    notas_olfativas: ["frutos rojos", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma fresco y juvenil, ideal para el día a día."
 };
 
 let IntenseManClubDeNuit = {
     nombre: "Intense man club de nuit",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let EmaanDeLattafa = {
     nombre: "Emaan de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let YaraAsadDeLattafa = {
     nombre: "Yara asad de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let NineAMAfnan = {
     nombre: "9am afnan",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Cítrico",
-    notas_olfativas: ["Mandarina", "bergamota", "madera de cedro"],
+    notas_olfativas: ["mandarina", "bergamota", "madera de cedro"],
     ocasion: "Día, noche",
     descripcion: "Un aroma fresco y vibrante, ideal para el día a día."
 };
 
 let AjwadDeLattafa = {
     nombre: "Ajwad de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let TeriaqDeLattafa = {
     nombre: "Teriaq de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let FhakarRoseDeLattafa = {
     nombre: "Fhakar rose de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let SakeenaDeLattafa = {
     nombre: "Sakeena de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let YaraTousDeLattafa = {
     nombre: "Yara tous de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let YaraMoiDeLattafa = {
     nombre: "Yara moi de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let YaraAsadZanzibarDeLattafa = {
     nombre: "Yara asad Zanzíbar de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let ConfidentialDeLattafa = {
     nombre: "Confidential de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let FabuloIntenseDeMaisonAlhambra = {
     nombre: "Fabulo intense de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let QaedAlFursanNegroDeLattafa = {
     nombre: "Qaed al fursan negro de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Especiado",
-    notas_olfativas: ["Pimienta", "madera de cedro", "cuero"],
+    notas_olfativas: ["pimienta", "madera de cedro", "cuero"],
     ocasion: "Noche, formal",
     descripcion: "Un aroma intenso y misterioso, ideal para hombres audaces."
 };
 
 let ToleenDeLattafa = {
     nombre: "Toleen de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
 
 let KhamrahDeLattafa = {
     nombre: "Khamrah de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Unisex",
     familia_olfativa: "Oriental Dulce",
-    notas_olfativas: ["Vainilla", "canela", "azúcar"],
+    notas_olfativas: ["vainilla", "canela", "azúcar"],
     ocasion: "Noche, especial",
     descripcion: "Un aroma dulce y seductor, perfecto para ocasiones especiales."
 };
 
 let CandeeOdysseyDeArmaf = {
     nombre: "Candee odyssey de armaf",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let GlacierUltraDeMaisonAlhambra = {
     nombre: "Glacier ultra de maison alhambra",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Masculino",
     familia_olfativa: "Amaderado Fresco",
-    notas_olfativas: ["Bergamota", "madera de cedro", "almizcle"],
+    notas_olfativas: ["bergamota", "madera de cedro", "almizcle"],
     ocasion: "Día, noche",
     descripcion: "Un perfume fresco y moderno, perfecto para el hombre contemporáneo."
 };
 
 let AmethystDeLattafa = {
     nombre: "Amethyst de lattafa",
-    presentacion: "Eau de Parfum",
+    presentacion: "Eau de Parfum, 100ml",
     genero: "Femenino",
     familia_olfativa: "Floral",
-    notas_olfativas: ["Rosa", "jazmín", "vainilla"],
+    notas_olfativas: ["rosa", "jazmín", "vainilla"],
     ocasion: "Día, noche",
     descripcion: "Un aroma floral y delicado, ideal para mujeres elegantes."
 };
